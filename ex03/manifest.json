@@ -4,15 +4,29 @@
   "description": "PWA start program",
   "scope": ".",
   "start_url": "./",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "icons": [
     {
+      "src": "images/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
       "src": "images/icons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "새 창 PWA by JS",
+      "short_name": "새 창",
+      "description": "",
+      "url": "./",
+      "icons": [{ "src": "images/icons/android-chrome-192x192.png", "sizes": "192x192"}]
     }
   ]
 }
